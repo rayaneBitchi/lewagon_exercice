@@ -1,3 +1,128 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    background: #F0F1F4;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    font-weight: bold;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    margin: 53px auto;
+}
+
+h1.heading {
+letter-spacing: -0.67px;
+color: #1E1F22;
+padding: 0;
+margin-top: 23px;
+text-align: center;
+font: normal normal bold 56px/60px Work Sans;
+}
+
+.heading span {
+    color: #F05F5D;
+}
+
+.form-container {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 36px;
+    color: #1E1F22;
+    width: 451px;
+    margin: 0 auto;
+    
+}
+
+.form-content h3{
+    /* padding: 36px auto; */
+    font: normal normal 600 24px/30px Work Sans;
+    letter-spacing: 0px;
+    width: 387px;
+    text-align: left;
+    margin: 0;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 18px;
+}
+
+.form-div input, .form-div select {
+    height: 44px;
+    border-radius: 12px;
+    border: 2px solid #ECEDF2;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #8E8E90;
+}
+
+
+
+label{
+    text-align: left;
+font: normal normal medium 13px/28px Work Sans;
+font-weight: 600;
+}
+
+.verify-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 18px;
+}
+
+.verify-info input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    border: 2px solid #ECEDF2;
+}
+
+.form-btn {
+height: 54px;
+width: 100%;
+margin-top: 24px;
+background: #F05F5D 0% 0% no-repeat padding-box;
+border-radius: 12px;
+font: normal normal 600 16px/28px Work Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: capitalize;
+border: none;
+}
+
+
+.confirmation {
+    margin: 24px auto;
+    height: 130px;
+    background: #FFFFFF;
+    width: 451px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;;
+}
+
+.hide{
+    display: none;
+}
+
+.confirmation h3 {
+    text-align: center;
+    font: normal normal 600 24px/30px Work Sans;
+    color: #1E1F22;
+}
+
+.confirmation span {
+    color: #1C9D75;
 }
