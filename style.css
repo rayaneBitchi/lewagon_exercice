@@ -36,7 +36,7 @@ font: normal normal bold 56px/60px Work Sans;
     border-radius: 24px;
     padding: 36px;
     color: #1E1F22;
-    width: 451px;
+    width: 400px;
     margin: 0 auto;
     
 }
@@ -62,7 +62,10 @@ font: normal normal bold 56px/60px Work Sans;
     border-radius: 12px;
     border: 2px solid #ECEDF2;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 10px;
+}
+
+.form-div input::placeholder, .form-div select::placeholder {
     color: #8E8E90;
 }
 
@@ -70,8 +73,8 @@ font: normal normal bold 56px/60px Work Sans;
 
 label{
     text-align: left;
-font: normal normal medium 13px/28px Work Sans;
-font-weight: 600;
+    font: normal normal medium 13px/28px Work Sans;
+    font-weight: 600;
 }
 
 .verify-info {
@@ -89,18 +92,17 @@ font-weight: 600;
 }
 
 .form-btn {
-height: 54px;
-width: 100%;
-margin-top: 24px;
-background: #F05F5D 0% 0% no-repeat padding-box;
-border-radius: 12px;
-font: normal normal 600 16px/28px Work Sans;
-letter-spacing: 0px;
-color: #FFFFFF;
-text-transform: capitalize;
-border: none;
+    height: 54px;
+    width: 100%;
+    margin-top: 24px;
+    background: #F05F5D 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    font: normal normal 600 16px/28px Work Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    border: none;
 }
-
 
 .confirmation {
     margin: 24px auto;
@@ -125,4 +127,12 @@ border: none;
 
 .confirmation span {
     color: #1C9D75;
+}
+
+.form select {
+    appearance: none;
+    background-image: url('assets/down.svg');
+    background-size: 12px 12px;
+    background-position: top 50% right 16px;
+    background-repeat: no-repeat;
 }
